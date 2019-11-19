@@ -171,7 +171,7 @@ service httpd restart
 ```
 
 ### 12. Run BLEAR_Hook.sh
-```./BLEAR_Create.sh```
+```./BLEAR_Hook.sh```
 
 ### 13. Copy the CRON script from BLEAR.cron to /etc/cron.d/
 
