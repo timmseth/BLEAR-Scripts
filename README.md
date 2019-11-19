@@ -32,7 +32,11 @@ The Hook script will need to be updated for the version of RHEL/Centos and Webse
 ### 06. Run Install Client
 ```./BLEAR_Install_Client```
 
-### 07. Modify BLEARS_Create.sh 
+### 07. Modify BLEAR_Create.sh 
+```
+vim ./BLEAR_Create.sh
+```
+
 This step is more specifically to update:
 * BLUECAT_USER_NAME
 * BLUECAT_PASSWORD
@@ -72,6 +76,8 @@ DOMAINS="<site.domain.example.com>"
 ```./BLEAR_Create.sh```
 
 ### 09. On Apache, modify your /etc/httpd/conf.d/ssl.conf to reflect the full path to cert and key files. 
+```vim /etc/httpd/conf.d/ssl.conf.sh```
+
 The files should be full.domain.name.crt and full.domain.name.key like so:
 ```
 #   Server Certificate:
@@ -91,6 +97,10 @@ SSLCertificateKeyFile /full/path/to/full.domain.name.com.key
 ```
 
 ### 10. Modify BLEAR_Renew.sh
+```
+vim ./BLEAR_Renew.sh
+```
+
 This step is more specifically to update:
 * BLUECAT_USER_NAME
 * BLUECAT_PASSWORD
@@ -126,7 +136,11 @@ DOMAIN_TO_RENEW_CERT="<site.domain.example.com>"
 /opt/lego/lego --email=$ADMIN_EMAIL --domains=$DOMAIN_TO_RENEW_CERT --path=$FULL_PATH --dns  bluecat renew --days $RENEW_DAYS --renew-hook=$RENEW_HOOK_SCRIPT
 ```
 
-### 11. Modify BLEAR_Hook
+### 11. Modify BLEAR_Hook.sh
+```
+vim ./BLEAR_Hook.sh
+```
+
 This step is more specifically to update:
 * CERT_NAME
 * FULL_PATH_NEW_CERT
