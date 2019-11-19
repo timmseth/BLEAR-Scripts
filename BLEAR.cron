@@ -15,10 +15,10 @@
 ##################################################################################
 #
 # Run BLEAR script to weekly
-00 06 * * 1 root /opt/lego/BLEAR_Scripts/BLEAR_Renewal.sh
+00 06 * * 1 root /opt/lego/BLEAR-Scripts/BLEAR_Renewal.sh
 #
 # Update Client quarterly
-00 00 1 */3 * root /opt/lego/BLEAR_Scripts/BLEAR_Update_Client.sh
+00 00 1 */3 * root /opt/lego/BLEAR-Scripts/BLEAR_Update_Client.sh
 #
 #############
 # END LEGO  #
