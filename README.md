@@ -72,11 +72,11 @@ DOMAINS="<site.domain.example.com>"
 /opt/lego/lego --email=$ADMIN_EMAIL --domains=$DOMAINS --path=$FULL_PATH --dns  bluecat run
 ```
 
-### 08. Run BLEARS_Create.sh
+### 08. Run BLEAR_Create.sh
 ```./BLEAR_Create.sh```
 
 ### 09. On Apache, modify your /etc/httpd/conf.d/ssl.conf to reflect the full path to cert and key files. 
-```vim /etc/httpd/conf.d/ssl.conf.sh```
+```vim /etc/httpd/conf.d/ssl.conf```
 
 The files should be full.domain.name.crt and full.domain.name.key like so:
 ```
