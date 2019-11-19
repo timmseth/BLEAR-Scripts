@@ -1,7 +1,7 @@
 
 # BLEAR-Scripts
-# Bluecat Let's Encrypt Auto-Renewal (BLEAR)
-# Authors: Sam Jones, Seth Timmons
+## Bluecat Let's Encrypt Auto-Renewal (BLEAR)
+## Authors: Sam Jones, Seth Timmons
 
 These scripts install update create and renew Lets Encrypt certs using the LEGO client.
 
