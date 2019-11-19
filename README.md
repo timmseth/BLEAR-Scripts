@@ -8,9 +8,12 @@ Each script will need to be configured for the domain, admin and Bluecat credent
 
 The Hook script will need to be updated for the version of RHEL/Centos and Webserver that is being used.
 
-1. create directory lego "mkdir /opt/lego"
-2. change to directory "cd /opt/lego"
-3. clone the github repo "git clone"
+1. create directory lego 
+```mkdir /opt/lego```
+2. change to directory
+```cd /opt/lego```
+3. clone the github repo 
+```git clone https://github.com/jonesamu/BLEAR-Scripts.git```
 
 #######################################################################################
 
