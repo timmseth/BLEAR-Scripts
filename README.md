@@ -63,7 +63,9 @@ DOMAINS="<site.domain.example.com>"
 8. Run BLEARS_Create.sh
 ```./BLEAR_Create.sh```
 
-9. ...to be continued...
+9.Modify BLEARS_Renew.sh to reflect cert locations accurately for your server.
+
+
 
 #######################################################################################
 
