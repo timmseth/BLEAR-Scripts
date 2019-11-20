@@ -27,7 +27,7 @@ The Hook script will need to be updated for the version of RHEL/Centos and Webse
 
 ### 05. Set all scripts to be Executable
 
-```chmod a+x ./*```
+```chmod a+x ./BLEAR*```
 
 ### 06. Run Install Client
 ```./BLEAR_Install_Client```
