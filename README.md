@@ -1,9 +1,5 @@
 
 # BLEAR-Scripts
-
-
-
-
 ## Overview
 **Project Title**: Bluecat Let's Encrypt Auto-Renewal (BLEAR)
 
@@ -42,15 +38,13 @@ git clone https://github.com/jonesamu/BLEAR-Scripts.git
 ```
 
 ##### 04. Enter the BLEAR-Scripts directory
-
 ```bash
 cd /opt/lego/BLEAR-Scripts/
 ```
 
 ##### 05. Set all scripts to be Executable
-
 ```bash
-chmod a+x ./*
+chmod a+x ./BLEAR*
 ```
 
 ##### 06. Run Install Client
